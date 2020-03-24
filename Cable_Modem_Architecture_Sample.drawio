@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-24T09:02:36.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="57qdmr1-aqg6T-OlDjDy" version="12.9.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-03-24T09:09:35.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="tqGTi7fRqq6sznNwfFzy" version="12.9.0" type="github" pages="5">
   <diagram id="UQheDdFjQVmvpRW-mmIJ" name="Framework">
     <mxGraphModel dx="1038" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -173,28 +173,40 @@
         <mxCell id="n07XWbQnjY6E23D5yPqP-0" />
         <mxCell id="n07XWbQnjY6E23D5yPqP-1" parent="n07XWbQnjY6E23D5yPqP-0" />
         <mxCell id="YMumrQRO7AosfMxtKtFv-1" value="" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="370" y="460" width="74" height="35" as="geometry" />
+          <mxGeometry x="418.35" y="380" width="74" height="35" as="geometry" />
         </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-2" value="" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
           <mxGeometry x="540" y="100" width="69" height="82" as="geometry" />
         </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-3" value="" style="shape=mxgraph.cisco.people.mac_woman;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="421.85" y="220" width="67" height="107" as="geometry" />
+          <mxGeometry x="421.85" y="180" width="67" height="107" as="geometry" />
         </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="392.15" y="410" width="29.7" height="21" as="geometry" />
+          <mxGeometry x="440.5" y="330" width="29.7" height="21" as="geometry" />
         </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-7" value="2.4G" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="352.15" y="431" width="40" height="20" as="geometry" />
+          <mxGeometry x="400.5" y="351" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-8" value="5G" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="421.85" y="431" width="40" height="20" as="geometry" />
+          <mxGeometry x="470.20000000000005" y="351" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-9" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="310" y="150" width="19.8" height="43.199999999999996" as="geometry" />
+          <mxGeometry x="360" y="110" width="19.8" height="43.199999999999996" as="geometry" />
         </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-10" value="" style="shape=mxgraph.signs.people.man_1;html=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="260" y="160" width="37" height="98" as="geometry" />
+          <mxGeometry x="310" y="120" width="37" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="YMumrQRO7AosfMxtKtFv-12" value="&lt;h1&gt;1. Open System&lt;/h1&gt;&lt;p&gt;Detail information.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+          <mxGeometry x="40" y="520" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YMumrQRO7AosfMxtKtFv-13" value="&lt;h1&gt;2. WEP&lt;/h1&gt;&lt;p&gt;Wired Equivalent Privacy&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+          <mxGeometry x="280.2" y="520" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YMumrQRO7AosfMxtKtFv-14" value="&lt;h1&gt;3. WPA&lt;/h1&gt;&lt;p&gt;Wi-Fi Protected Access&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+          <mxGeometry x="479.5" y="520" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YMumrQRO7AosfMxtKtFv-15" value="&lt;h1&gt;4. WPA2&lt;/h1&gt;&lt;p&gt;Wi-Fi Protected Access&amp;nbsp;&lt;/p&gt;&lt;p&gt;Advanced&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+          <mxGeometry x="680" y="520" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
