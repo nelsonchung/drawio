@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-24T09:09:35.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="tqGTi7fRqq6sznNwfFzy" version="12.9.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-03-26T01:41:11.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="moNBr4xLZVjplYFCCn3I" version="12.9.0" type="github" pages="5">
   <diagram id="UQheDdFjQVmvpRW-mmIJ" name="Framework">
     <mxGraphModel dx="1038" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,12 @@
         </mxCell>
         <mxCell id="iJRRXA_XovErArp0UVYC-6" value="SDIO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="200" y="100" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="n_ml9-bI1uiPqkIEKY3G-2" value="USB Host" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="n_ml9-bI1uiPqkIEKY3G-3" value="USB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="70" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
