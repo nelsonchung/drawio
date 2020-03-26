@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-26T01:41:11.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="moNBr4xLZVjplYFCCn3I" version="12.9.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-03-26T05:59:23.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rlvKGmQdjcj9d0ay_w3i" version="12.9.0" type="github" pages="5">
   <diagram id="UQheDdFjQVmvpRW-mmIJ" name="Framework">
     <mxGraphModel dx="1038" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,10 +174,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KA7JSQxPYtyfImARU4g8" name="WiFi">
-    <mxGraphModel dx="1038" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="971" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n07XWbQnjY6E23D5yPqP-0" />
         <mxCell id="n07XWbQnjY6E23D5yPqP-1" parent="n07XWbQnjY6E23D5yPqP-0" />
+        <mxCell id="Aen_zQsZCKShlwSZs_TT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="n07XWbQnjY6E23D5yPqP-1" source="YMumrQRO7AosfMxtKtFv-1" target="Aen_zQsZCKShlwSZs_TT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YMumrQRO7AosfMxtKtFv-1" value="" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
           <mxGeometry x="418.35" y="380" width="74" height="35" as="geometry" />
         </mxCell>
@@ -208,11 +211,14 @@
         <mxCell id="YMumrQRO7AosfMxtKtFv-13" value="&lt;h1&gt;2. WEP&lt;/h1&gt;&lt;p&gt;Wired Equivalent Privacy&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
           <mxGeometry x="280.2" y="520" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YMumrQRO7AosfMxtKtFv-14" value="&lt;h1&gt;3. WPA&lt;/h1&gt;&lt;p&gt;Wi-Fi Protected Access&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="479.5" y="520" width="190" height="120" as="geometry" />
+        <mxCell id="YMumrQRO7AosfMxtKtFv-14" value="&lt;h1&gt;3. WPA/WPA2&lt;/h1&gt;&lt;p&gt;Wi-Fi Protected Access&lt;/p&gt;&lt;p&gt;Wi-Fi Protected Access Advanced&lt;/p&gt;&lt;p&gt;搭配Radius Server&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+          <mxGeometry x="479.5" y="520" width="230.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YMumrQRO7AosfMxtKtFv-15" value="&lt;h1&gt;4. WPA2&lt;/h1&gt;&lt;p&gt;Wi-Fi Protected Access&amp;nbsp;&lt;/p&gt;&lt;p&gt;Advanced&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
-          <mxGeometry x="680" y="520" width="190" height="120" as="geometry" />
+        <mxCell id="YMumrQRO7AosfMxtKtFv-15" value="&lt;h1&gt;4. WPA-PSK/WPA2-PSK&lt;/h1&gt;&lt;p&gt;TKIP:&amp;nbsp;Temporal Key Integrity Protocol（臨時密鑰完整性協議），這是一種舊的加密標準&lt;/p&gt;&lt;p&gt;AES:&amp;nbsp;Advanced Encryption Standard（高級加密標準），安全性比 TKIP 好&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+          <mxGeometry x="760" y="520" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Aen_zQsZCKShlwSZs_TT-2" value="Radius Server" style="shape=mxgraph.cisco.servers.fileserver;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+          <mxGeometry x="740" y="309" width="43" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
