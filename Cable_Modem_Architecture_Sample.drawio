@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-26T06:14:59.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="LDzqhb0ReblRm1ougq2L" version="12.9.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-03-26T07:07:13.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="GDF9FMGTZDptbRyIZ-BO" version="12.9.0" type="github" pages="5">
   <diagram id="UQheDdFjQVmvpRW-mmIJ" name="Framework">
     <mxGraphModel dx="1038" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
         <mxCell id="YMumrQRO7AosfMxtKtFv-14" value="&lt;h1&gt;3. WPA/WPA2/WPA3&lt;/h1&gt;&lt;p&gt;Wi-Fi Protected Access&lt;/p&gt;&lt;p&gt;Wi-Fi Protected Access Advanced&lt;/p&gt;&lt;p&gt;搭配Radius Server&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
           <mxGeometry x="479.5" y="520" width="270.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YMumrQRO7AosfMxtKtFv-15" value="&lt;h1&gt;4. WPA-PSK/WPA2-PSK&lt;/h1&gt;&lt;p&gt;TKIP:&amp;nbsp;Temporal Key Integrity Protocol（臨時密鑰完整性協議），這是一種舊的加密標準&lt;/p&gt;&lt;p&gt;AES:&amp;nbsp;Advanced Encryption Standard（高級加密標準），安全性比 TKIP 好&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
+        <mxCell id="YMumrQRO7AosfMxtKtFv-15" value="&lt;h1&gt;4. WPA-PSK/WPA2-PSK&lt;/h1&gt;&lt;p&gt;TKIP:&amp;nbsp;Temporal Key Integrity Protocol（臨時密鑰完整性協議），這是一種舊的加密標準 for WPA-PSK&lt;/p&gt;&lt;p&gt;AES:&amp;nbsp;Advanced Encryption Standard（高級加密標準），安全性比 TKIP 好。for WPA-PSK2&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
           <mxGeometry x="760" y="520" width="350" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Aen_zQsZCKShlwSZs_TT-2" value="Radius Server" style="shape=mxgraph.cisco.servers.fileserver;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="n07XWbQnjY6E23D5yPqP-1">
