@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-26T08:58:24.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="62zpJ4JN0M-TqTH6FhYL" version="12.9.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-26T09:08:58.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="JBqqaKXGRoJJnqFeNo3w" version="12.9.0" type="github" pages="7">
   <diagram id="UQheDdFjQVmvpRW-mmIJ" name="Framework">
     <mxGraphModel dx="1387" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -371,6 +371,40 @@
         </mxCell>
         <mxCell id="0PAbyBEv4yupkPGMSEY9-14" value="&lt;h1&gt;SNMP基本指令&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;GET&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;GET NEXT&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;GET BULK&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;SET&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;TRAPS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;INFORM&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;RESPONSE&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
           <mxGeometry x="120" y="570" width="490" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="40hc4KH0dcfKH14qL3PJ" name="Gre">
+    <mxGraphModel dx="971" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-0" />
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-1" parent="7hnGG1EYcPC9WgJlbPex-0" />
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-2" value="Gre Server&lt;br&gt;172.16.1.75&lt;br&gt;10.118.251.163" style="shape=mxgraph.cisco.servers.unity_server;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="7hnGG1EYcPC9WgJlbPex-1">
+          <mxGeometry x="710" y="123.5" width="50" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-3" value="CM&lt;br&gt;172.16.95.26" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="7hnGG1EYcPC9WgJlbPex-1">
+          <mxGeometry x="390" y="140.5" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="7hnGG1EYcPC9WgJlbPex-1" source="7hnGG1EYcPC9WgJlbPex-4" target="7hnGG1EYcPC9WgJlbPex-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-6" value="Ethernet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="7hnGG1EYcPC9WgJlbPex-5">
+          <mxGeometry x="-0.1682" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-4" value="PC&lt;br&gt;10.118.251.108" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="7hnGG1EYcPC9WgJlbPex-1">
+          <mxGeometry x="170" y="117" width="69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-7" value="" style="shape=mxgraph.cisco.storage.cloud;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="7hnGG1EYcPC9WgJlbPex-1">
+          <mxGeometry x="520" y="118" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hnGG1EYcPC9WgJlbPex-10" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7hnGG1EYcPC9WgJlbPex-1" source="7hnGG1EYcPC9WgJlbPex-3" target="7hnGG1EYcPC9WgJlbPex-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
