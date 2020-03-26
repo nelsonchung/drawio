@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-26T07:07:13.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="GDF9FMGTZDptbRyIZ-BO" version="12.9.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-03-26T07:34:46.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="cRBj0wUKIiptVd8OorOM" version="12.9.0" type="github" pages="6">
   <diagram id="UQheDdFjQVmvpRW-mmIJ" name="Framework">
     <mxGraphModel dx="1038" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JjT-QSa9bflAFTEv5hrX" name="Remote Control - TR069">
-    <mxGraphModel dx="1038" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="971" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IHp6bzXTlgJsPkN50lw8-0" />
         <mxCell id="IHp6bzXTlgJsPkN50lw8-1" parent="IHp6bzXTlgJsPkN50lw8-0" />
@@ -277,6 +277,61 @@
             <mxPoint x="600" y="280" as="sourcePoint" />
             <mxPoint x="450" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kSqkgZRf2ZJBC_NH7rni" name="Remote Control - SNMP">
+    <mxGraphModel dx="971" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-0" />
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-1" parent="0PAbyBEv4yupkPGMSEY9-0" />
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-2" value="SNMP Client" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
+          <mxGeometry x="230" y="90" width="69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-3" value="" style="shape=mxgraph.cisco.storage.cloud;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
+          <mxGeometry x="330" y="110" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-4" value="Cable Modem with&lt;br&gt;SNMP Server/daemon" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
+          <mxGeometry x="370" y="300" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-5" value="Cable Modem with&lt;br&gt;SNMP Server/daemon" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
+          <mxGeometry x="640" y="172" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-6" value="Cable Modem with&lt;br&gt;SNMP Server/daemon" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
+          <mxGeometry x="530" y="290" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0PAbyBEv4yupkPGMSEY9-1" source="0PAbyBEv4yupkPGMSEY9-2" target="0PAbyBEv4yupkPGMSEY9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0PAbyBEv4yupkPGMSEY9-1" target="0PAbyBEv4yupkPGMSEY9-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="190" />
+              <mxPoint x="480" y="170" />
+              <mxPoint x="450" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0PAbyBEv4yupkPGMSEY9-1" target="0PAbyBEv4yupkPGMSEY9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-13" value="&lt;h1&gt;SNMP&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.manageengine.com/tw/network-monitoring/what-is-snmp.html&quot;&gt;https://www.manageengine.com/tw/network-monitoring/what-is-snmp.html&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(68 , 68 , 68) ; font-family: &amp;#34;poppins&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;是由網際網路架構委員會 (IAB) 在 RFC1157 中定義的應用程式層通訊協定，用於交換網路裝置之間的管理資訊。它是傳輸控制通訊協定/網際網路通訊協定 (TCP⁄IP) 通訊協定組合的一部分&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(68 , 68 , 68) ; font-family: &amp;#34;poppins&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
+          <mxGeometry x="120" y="400" width="490" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0PAbyBEv4yupkPGMSEY9-14" value="&lt;h1&gt;SNMP基本指令&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;GET&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;GET NEXT&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;GET BULK&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;SET&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;TRAPS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;INFORM&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;RESPONSE&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0PAbyBEv4yupkPGMSEY9-1">
+          <mxGeometry x="120" y="570" width="490" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
