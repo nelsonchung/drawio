@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-26T09:08:58.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="JBqqaKXGRoJJnqFeNo3w" version="12.9.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-03-26T10:22:36.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="SdogdTz2N0HjyD_qGIR9" version="12.9.0" type="github" pages="7">
   <diagram id="UQheDdFjQVmvpRW-mmIJ" name="Framework">
     <mxGraphModel dx="1387" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
           <mxGeometry x="379" y="230" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="VxZKb3EYhIGphUSGBAon-28" value="Web" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="560" y="-80" width="90" height="25" as="geometry" />
+          <mxGeometry x="199" y="-40" width="90" height="25" as="geometry" />
         </mxCell>
         <mxCell id="iJRRXA_XovErArp0UVYC-1" value="UART" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="200" y="60" width="70" height="25" as="geometry" />
@@ -106,26 +106,26 @@
         <mxCell id="_toqcencc39JV-C59hkn-11" value="iwpriv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="890" y="-80" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_toqcencc39JV-C59hkn-12" value="iwpriv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="_toqcencc39JV-C59hkn-12" value="ioctl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="890" y="70" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_toqcencc39JV-C59hkn-13" value="flash set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="_toqcencc39JV-C59hkn-13" value="flash set/get" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1000" y="-80" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_toqcencc39JV-C59hkn-14" value="flash get" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1105" y="-80" width="90" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="_toqcencc39JV-C59hkn-15" value="WiFi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="_toqcencc39JV-C59hkn-15" value="wifi_24G" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="890" y="230" width="90" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_toqcencc39JV-C59hkn-17" value="Ethernet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="230" width="90" height="25" as="geometry" />
+          <mxGeometry x="1090" y="230" width="90" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_toqcencc39JV-C59hkn-21" value="puma5_realtek_daemon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-30" width="160" height="25" as="geometry" />
+          <mxGeometry x="580" y="-5" width="160" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_toqcencc39JV-C59hkn-22" value="realtek_puma5_daemon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="890" y="-30" width="160" height="25" as="geometry" />
+          <mxGeometry x="890" y="-5" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jAGjqONFjh3f0_XQGc54-1" value="wifi_5G" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="990" y="230" width="90" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
