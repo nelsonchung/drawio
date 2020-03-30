@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T13:55:09.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="uQvtuZuTXoa5fLRiqqts" version="12.9.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-03-30T14:04:33.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="yeYrZ8kc28gvSblLTJYX" version="12.9.5" type="github" pages="2">
   <diagram id="WGASg5PrxZJSCfmzG2l8" name="Software Architecture">
     <mxGraphModel dx="786" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="PlF0_Y6H4KaN_f3fTE05" name="TR069">
+  <diagram id="PlF0_Y6H4KaN_f3fTE05" name="CWMP">
     <mxGraphModel dx="1123" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="luntEUrWztcpLccx-1iP-0" />
@@ -105,7 +105,7 @@
         <mxCell id="Upp1_WNHqjYv7pOvEWWJ-3" value="SOAP" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
           <mxGeometry x="130" y="130" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Upp1_WNHqjYv7pOvEWWJ-4" value="RPC Methods" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
+        <mxCell id="Upp1_WNHqjYv7pOvEWWJ-4" value="RPC Methods&lt;br&gt;TR098" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
           <mxGeometry x="130" y="90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Upp1_WNHqjYv7pOvEWWJ-5" value="CPE/ACS Management Application" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
@@ -116,12 +116,12 @@
         </mxCell>
         <mxCell id="Upp1_WNHqjYv7pOvEWWJ-7" value="" style="endArrow=none;html=1;" edge="1" parent="luntEUrWztcpLccx-1iP-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="320" as="sourcePoint" />
-            <mxPoint x="740" y="320" as="targetPoint" />
+            <mxPoint x="10" y="380" as="sourcePoint" />
+            <mxPoint x="740" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Upp1_WNHqjYv7pOvEWWJ-8" value="Scenario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
-          <mxGeometry x="10" y="330" width="250" height="40" as="geometry" />
+          <mxGeometry x="10" y="370" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Upp1_WNHqjYv7pOvEWWJ-9" value="CPE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
           <mxGeometry x="105" y="400" width="60" height="40" as="geometry" />
@@ -267,6 +267,18 @@
         </mxCell>
         <mxCell id="Upp1_WNHqjYv7pOvEWWJ-38" value="Running" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
           <mxGeometry x="20" y="750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Upp1_WNHqjYv7pOvEWWJ-41" value="Ref:&amp;nbsp;&lt;a href=&quot;https://cwmp-data-models.broadband-forum.org/&quot;&gt;https://cwmp-data-models.broadband-forum.org/&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
+          <mxGeometry x="40" y="320" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Upp1_WNHqjYv7pOvEWWJ-42" value="TR098:&lt;br&gt;&lt;a href=&quot;https://cwmp-data-models.broadband-forum.org/tr-098-1-8-0.html&quot;&gt;https://cwmp-data-models.broadband-forum.org/tr-098-1-8-0.html&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
+          <mxGeometry x="10" y="970" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Upp1_WNHqjYv7pOvEWWJ-44" value="" style="endArrow=none;html=1;" edge="1" parent="luntEUrWztcpLccx-1iP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="960" as="sourcePoint" />
+            <mxPoint x="730" y="960" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
