@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-13T03:10:07.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36" etag="yX99MHg66JgHzHQ-2shj" version="12.9.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-15T01:09:20.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36" etag="avIWUiwGrhH0vQjkFoz4" version="12.9.10" type="github" pages="3">
   <diagram id="Aj4zgXX_aEzzUWkeqMBi" name="Framework">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
     
   </diagram>
   <diagram id="FTGVCzeqXDkKMSWyE2wt" name="network interface">
-    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ewLNQ7stosOochJfzf85-0" />
         <mxCell id="ewLNQ7stosOochJfzf85-1" parent="ewLNQ7stosOochJfzf85-0" />
@@ -419,7 +419,7 @@
           <mxGeometry x="1411" y="211" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TUAhTz15hATuZL1Ewy7X-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="ewLNQ7stosOochJfzf85-1">
-          <mxGeometry x="1195" y="40" width="630" height="130" as="geometry" />
+          <mxGeometry x="1195" y="40" width="435" height="130" as="geometry" />
         </mxCell>
         <mxCell id="TUAhTz15hATuZL1Ewy7X-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;strokeColor=#00FF00;strokeWidth=4;" edge="1" parent="ewLNQ7stosOochJfzf85-1" source="TUAhTz15hATuZL1Ewy7X-21" target="TUAhTz15hATuZL1Ewy7X-24">
           <mxGeometry relative="1" as="geometry" />
@@ -470,7 +470,7 @@
           <mxGeometry x="970" y="50" width="175" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TUAhTz15hATuZL1Ewy7X-41" value="1. (綠色流程)封包從LAN端收進來後，透過EXT1-&amp;gt;ETH0-&amp;gt;WAN-&amp;gt;l2sd0.2-&amp;gt;Router-&amp;gt;erouter0-&amp;gt;l2sd0.4-&amp;gt;WAN-&amp;gt;ETH1-&amp;gt;WAN&lt;br&gt;2. (紅色流程)ARM端會將封包傳送訊息，設定到PP，接下來就會透過PP傳遞封包，藉此加快封包傳送產能。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ewLNQ7stosOochJfzf85-1">
-          <mxGeometry x="940" y="-232" width="240" height="162" as="geometry" />
+          <mxGeometry x="1230" y="-400" width="240" height="162" as="geometry" />
         </mxCell>
         <mxCell id="TUAhTz15hATuZL1Ewy7X-42" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span&gt;ARM&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="ewLNQ7stosOochJfzf85-1">
           <mxGeometry x="1207" y="-172" width="40" height="20" as="geometry" />
