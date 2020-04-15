@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-15T01:09:20.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36" etag="avIWUiwGrhH0vQjkFoz4" version="12.9.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-15T01:09:54.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36" etag="C4CZT2uej9Kx2HSL1k7G" version="12.9.10" type="github" pages="3">
   <diagram id="Aj4zgXX_aEzzUWkeqMBi" name="Framework">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
         <mxCell id="TUAhTz15hATuZL1Ewy7X-1" value="Network Interface Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ewLNQ7stosOochJfzf85-1">
           <mxGeometry x="-170" y="-360" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TUAhTz15hATuZL1Ewy7X-2" value="LAN size speed up design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ewLNQ7stosOochJfzf85-1">
+        <mxCell id="TUAhTz15hATuZL1Ewy7X-2" value="LAN side speed up design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ewLNQ7stosOochJfzf85-1">
           <mxGeometry x="960" y="-350" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TUAhTz15hATuZL1Ewy7X-5" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Router&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="ewLNQ7stosOochJfzf85-1">
