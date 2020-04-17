@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-16T10:21:31.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36" etag="N3hiVACRTXuAc2jd-vnV" version="12.9.10" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-04-17T11:00:57.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36" etag="KLG-YVEv4r5X-d8-ncP7" version="12.9.10" type="github" pages="5">
   <diagram id="Aj4zgXX_aEzzUWkeqMBi" name="Framework">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -609,6 +609,9 @@
         </mxCell>
         <mxCell id="xwZL8qL4jHIgAiGwod51-23" value="Check the software version is the same or not" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="xwZL8qL4jHIgAiGwod51-1">
           <mxGeometry x="170" y="-50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eqeVFSQY0ei7VrLoCx9e-0" value="syslog(CBN_BASICLOG, &quot;%s&quot;, errmsg);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xwZL8qL4jHIgAiGwod51-1">
+          <mxGeometry x="890" y="165" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
