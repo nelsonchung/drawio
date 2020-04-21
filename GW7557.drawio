@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-21T12:19:14.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="eMlk-vHJ7s09sb37bNxM" version="12.9.14" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-21T13:07:10.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="k9SDGDC_CLS7riYR-bpv" version="12.9.14" type="github" pages="7">
   <diagram id="otSKW9VnM1xe6uIU6zZz" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1411,7 +1411,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="htKCDI5AyVFQZSINh_oe" name="VLAN">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cOjDdBRQii4sUb0qDwr2-0" />
         <mxCell id="cOjDdBRQii4sUb0qDwr2-1" parent="cOjDdBRQii4sUb0qDwr2-0" />
@@ -1573,6 +1573,59 @@
         </mxCell>
         <mxCell id="cOjDdBRQii4sUb0qDwr2-83" value="DHCP Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
           <mxGeometry x="1510" y="420" width="76" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-84" value="&lt;b&gt;Auto Vlan scan&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry y="1240" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-92" value="Send ping packet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-85" target="cOjDdBRQii4sUb0qDwr2-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-85" value="Choose the vlan id from DUT database and add to wan interface (etouer0)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="370" y="1502.5" width="127" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-112" value="Get ping response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-86" target="cOjDdBRQii4sUb0qDwr2-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-86" target="cOjDdBRQii4sUb0qDwr2-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-86" value="Ping with timeout 5 seconds" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="750" y="1500" width="98.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-87" value="Switch" style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="450" y="1331" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-88" target="cOjDdBRQii4sUb0qDwr2-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-88" value="GW7557" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="180" y="1349" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-91" value="Complete the vlan auto scan&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1010" y="1515" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-97" target="cOjDdBRQii4sUb0qDwr2-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-97" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="126" y="1535" width="14" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-98" target="cOjDdBRQii4sUb0qDwr2-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-98" value="Get the vlan id from DUT database" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="210" y="1512.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-113" target="cOjDdBRQii4sUb0qDwr2-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1692" />
+              <mxPoint x="690" y="1545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-113" value="Choose the next vlan id from DUT database and add to wan interface (etouer0)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="735.75" y="1650" width="127" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
