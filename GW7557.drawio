@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-21T11:44:15.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="tQASPgHwM4infvc517zg" version="12.9.14" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-21T11:53:31.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="dSCQm4VXP8fgat9dQ8Fv" version="12.9.14" type="github" pages="7">
   <diagram id="otSKW9VnM1xe6uIU6zZz" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1411,7 +1411,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="htKCDI5AyVFQZSINh_oe" name="VLAN">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cOjDdBRQii4sUb0qDwr2-0" />
         <mxCell id="cOjDdBRQii4sUb0qDwr2-1" parent="cOjDdBRQii4sUb0qDwr2-0" />
@@ -1525,6 +1525,54 @@
         </mxCell>
         <mxCell id="cOjDdBRQii4sUb0qDwr2-48" value="Tag VLAN ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
           <mxGeometry x="230" y="630" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-55" target="cOjDdBRQii4sUb0qDwr2-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-55" target="cOjDdBRQii4sUb0qDwr2-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-55" value="Switch" style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1310" y="188.5" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-59" value="&lt;b&gt;LAB環境&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="920" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-67" value="vlan id 40" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1140" y="188.5" width="91" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-68" value="Tag vlan id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1000" y="160" width="91" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-69" value="Untag vlan id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1320" y="160" width="91" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-70" value="GW7557" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1000" y="197.5" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-72" value="DHCP Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1500" y="90" width="76" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-74" value="&lt;b&gt;Case 1 - VLAN&lt;br&gt;1. 接上VLAN環境 (with vlan id 40)&lt;br&gt;2. 拿到IP address via dhcp packet&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="920" y="70" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-75" value="&lt;b&gt;Case 2 - No VLAN&lt;br&gt;1. 接上172網域環境&lt;br&gt;2. 拿到IP address via dhcp packet&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="920.5" y="305" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-78" target="cOjDdBRQii4sUb0qDwr2-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="cOjDdBRQii4sUb0qDwr2-1" source="cOjDdBRQii4sUb0qDwr2-78" target="cOjDdBRQii4sUb0qDwr2-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-78" value="Switch" style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1310" y="428.5" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-82" value="GW7557" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1000" y="437.5" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cOjDdBRQii4sUb0qDwr2-83" value="DHCP Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
+          <mxGeometry x="1500" y="330" width="76" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
