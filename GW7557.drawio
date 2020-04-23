@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-23T12:03:34.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="hHFvvYtJ9YOxn44Aro3X" version="13.0.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-23T12:08:51.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="PFzBWDxxXc0YC8gTYA8Y" version="13.0.0" type="github" pages="7">
   <diagram id="otSKW9VnM1xe6uIU6zZz" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -976,187 +976,102 @@
     
   </diagram>
   <diagram name="Samhain Monitor" id="E6obwPMiZvEjTpKX9lhY">
-    
-    <mxGraphModel dx="786" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-0" />
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-1" parent="xwZL8qL4jHIgAiGwod51-0" />
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-3" target="xwZL8qL4jHIgAiGwod51-5" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#000000;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="60" y="115" width="20" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-4" target="xwZL8qL4jHIgAiGwod51-6" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-16" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-4" target="xwZL8qL4jHIgAiGwod51-8" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-4" value="Check the database is exist" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="320" y="85" width="80" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-5" target="xwZL8qL4jHIgAiGwod51-4" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-5" target="xwZL8qL4jHIgAiGwod51-23" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-5" value="cbn_samhain_monitor&lt;br&gt;start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="150" y="95" width="120" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-6" target="xwZL8qL4jHIgAiGwod51-15" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-6" value="Generate the database (save to /nvram)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="450" y="95" width="120" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-8" target="xwZL8qL4jHIgAiGwod51-15" edge="1">
-          
           <mxGeometry relative="1" as="geometry">
-            
             <Array as="points">
-              
               <mxPoint x="810" y="50" />
-              
               <mxPoint x="660" y="50" />
-              
             </Array>
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF3399;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-8" target="xwZL8qL4jHIgAiGwod51-20" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-8" value="Check the integrity of system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="750" y="95" width="120" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-15" target="xwZL8qL4jHIgAiGwod51-8" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-15" value="Wait the time interval (default is 600s)" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="620" y="85" width="80" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF3399;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-20" target="xwZL8qL4jHIgAiGwod51-15" edge="1">
-          
           <mxGeometry relative="1" as="geometry">
-            
             <Array as="points">
-              
               <mxPoint x="1000" y="30" />
-              
               <mxPoint x="670" y="30" />
-              
               <mxPoint x="670" y="85" />
-              
             </Array>
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-20" value="Alter the message to syslog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="940" y="95" width="120" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-23" target="xwZL8qL4jHIgAiGwod51-6" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-27" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xwZL8qL4jHIgAiGwod51-26" vertex="1" connectable="0">
-          
           <mxGeometry x="-0.474" y="-1" relative="1" as="geometry">
-            
             <mxPoint as="offset" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=2;" parent="xwZL8qL4jHIgAiGwod51-1" source="xwZL8qL4jHIgAiGwod51-23" target="xwZL8qL4jHIgAiGwod51-4" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-29" value="Yes (mean software &lt;br&gt;version is the same)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xwZL8qL4jHIgAiGwod51-28" vertex="1" connectable="0">
-          
           <mxGeometry x="-0.3073" y="3" relative="1" as="geometry">
-            
             <mxPoint as="offset" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="xwZL8qL4jHIgAiGwod51-23" value="Check the software version is the same or not" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;align=center;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="170" y="-50" width="80" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="eqeVFSQY0ei7VrLoCx9e-0" value="syslog(CBN_BASICLOG, &quot;%s&quot;, errmsg);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="xwZL8qL4jHIgAiGwod51-1" vertex="1">
-          
           <mxGeometry x="890" y="165" width="250" height="20" as="geometry" />
-          
         </mxCell>
-        
+        <mxCell id="2Fo5s4UkMx9X6FYXCAHw-0" value="Flow&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="xwZL8qL4jHIgAiGwod51-1">
+          <mxGeometry x="80" y="-170" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Fo5s4UkMx9X6FYXCAHw-1" value="相關檔案&lt;br&gt;* samhain&lt;br&gt;1. samhain database&lt;br&gt;/backup/samhain_file&lt;br&gt;2. configure file&lt;br&gt;/etc/samhainrc&lt;br&gt;&lt;br&gt;* cbn_samhain_monitor&lt;br&gt;1. configure file&lt;br&gt;/backup/cbn_samhain_monitor.conf&lt;br&gt;2. version check file&lt;br&gt;/backup/cbn_samhain_monitor_info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="xwZL8qL4jHIgAiGwod51-1">
+          <mxGeometry x="80" y="252" width="190" height="190" as="geometry" />
+        </mxCell>
       </root>
-      
     </mxGraphModel>
-    
   </diagram>
   <diagram id="VdJKqFBDut8Aq8HtGGwX" name="IPv6">
     
