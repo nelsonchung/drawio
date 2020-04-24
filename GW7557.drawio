@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-24T02:31:42.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="DFMTDfN8gk9bTyB4etJe" version="13.0.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-24T04:59:38.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="aaIYCfWK96yhHK2aK84C" version="13.0.0" type="github" pages="8">
   <diagram id="otSKW9VnM1xe6uIU6zZz" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1832,6 +1832,47 @@
         </mxCell>
         <mxCell id="G9Gs6Kov5-MK1fUM8xdZ-20" value="Abort" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;gradientColor=#ea6b66;" vertex="1" parent="cOjDdBRQii4sUb0qDwr2-1">
           <mxGeometry x="1098.1299999999999" y="2650" width="215.25" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zpGxzGSBfEpTteLZJSHj" name="dslite">
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-0" />
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-1" parent="3B-boSv5ZkUPlscJ8RWn-0" />
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-8" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFFFFF;fontSize=13;fontColor=#000000;align=left;" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="160" y="-20" width="840" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFFFFF;fontSize=13;fontColor=#000000;align=left;" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="30" y="70" width="450" height="352.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;fontSize=18;fontColor=#00FF00;align=center;" edge="1" parent="3B-boSv5ZkUPlscJ8RWn-1" source="3B-boSv5ZkUPlscJ8RWn-2" target="3B-boSv5ZkUPlscJ8RWn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-2" value="Cable Modem&lt;br&gt;with IPv6 only" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;html=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;fontSize=13;fontColor=#000000;align=left;" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="280" y="157.5" width="74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-3" value="After Server" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;labelBackgroundColor=none;strokeColor=#000000;fillColor=#000000;fontSize=13;fontColor=#000000;" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="771" y="115" width="56" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;fontSize=13;fontColor=#000000;align=center;" edge="1" parent="3B-boSv5ZkUPlscJ8RWn-1" source="3B-boSv5ZkUPlscJ8RWn-5" target="3B-boSv5ZkUPlscJ8RWn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-5" value="PC with IPv4 only" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;fontSize=13;fontColor=#000000;align=left;" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="120" y="240" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-10" value="IPV4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#00FF00;fontStyle=1" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="260" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-11" value="dslite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#00FF00;fontStyle=1" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="520" y="231.25" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-13" value="IPv4 and add IPv6 header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#00FF00;fontStyle=1" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="480" y="261.25" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3B-boSv5ZkUPlscJ8RWn-14" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFFFFF;fontSize=18;fontColor=#00FF00;align=left;" vertex="1" parent="3B-boSv5ZkUPlscJ8RWn-1">
+          <mxGeometry x="850" y="86.25" width="330" height="145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
