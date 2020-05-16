@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-15T10:36:40.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Ixra5pLRtb5s3fkJD8AR" version="13.1.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-05-16T06:22:29.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="li5MXFcZZXz9iWNPRRn8" version="13.1.1" type="github" pages="11">
   <diagram id="otSKW9VnM1xe6uIU6zZz" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1587,7 +1587,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="htKCDI5AyVFQZSINh_oe" name="VLAN">
-    <mxGraphModel dx="2019" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2007" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cOjDdBRQii4sUb0qDwr2-0" />
         <mxCell id="cOjDdBRQii4sUb0qDwr2-1" parent="cOjDdBRQii4sUb0qDwr2-0" />
@@ -2297,11 +2297,11 @@
         <mxCell id="FQLtDl7AH3p1IChWLlay-64" value="Send DHCPv6 Solicit/Request&lt;br&gt;(with VLAN encapsulation)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" parent="cOjDdBRQii4sUb0qDwr2-1" vertex="1">
           <mxGeometry x="1221" y="3410" width="168.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FQLtDl7AH3p1IChWLlay-76" value="Reference RFC2461" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="cOjDdBRQii4sUb0qDwr2-1" vertex="1">
-          <mxGeometry x="1040" y="3350" width="210" height="20" as="geometry" />
+        <mxCell id="FQLtDl7AH3p1IChWLlay-76" value="Reference RFC2461/RFC4861" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="cOjDdBRQii4sUb0qDwr2-1" vertex="1">
+          <mxGeometry x="1040" y="3350" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FQLtDl7AH3p1IChWLlay-83" value="Reference RFC2461" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="cOjDdBRQii4sUb0qDwr2-1" vertex="1">
-          <mxGeometry x="1040" y="3552" width="210" height="20" as="geometry" />
+        <mxCell id="FQLtDl7AH3p1IChWLlay-83" value="Reference RFC2461/RFC4861" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="cOjDdBRQii4sUb0qDwr2-1" vertex="1">
+          <mxGeometry x="1040" y="3552" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XxwnIl-TvpDETwxNSYem-3" value="&lt;b&gt;Framework&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cOjDdBRQii4sUb0qDwr2-1" vertex="1">
           <mxGeometry y="-530" width="180" height="20" as="geometry" />
