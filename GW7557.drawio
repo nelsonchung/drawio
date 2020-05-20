@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-19T08:43:26.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="RvtgQjgmlV85vvKjHzA8" version="13.1.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-05-20T12:41:47.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="7Pje563mLJ5Opczae7Fn" version="13.1.1" type="github" pages="12">
   <diagram id="otSKW9VnM1xe6uIU6zZz" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1587,7 +1587,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="htKCDI5AyVFQZSINh_oe" name="VLAN">
-    <mxGraphModel dx="1795" dy="1499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1581" dy="1472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cOjDdBRQii4sUb0qDwr2-0" />
         <mxCell id="cOjDdBRQii4sUb0qDwr2-1" parent="cOjDdBRQii4sUb0qDwr2-0" />
@@ -2926,6 +2926,55 @@
         </mxCell>
         <mxCell id="S5IVmIKpNW3tVXYCfiZx-21" value="git reset --hard D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="S5IVmIKpNW3tVXYCfiZx-1" vertex="1">
           <mxGeometry x="110" y="160" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A8aBmlv6U7FLtDgebEE2" name="WiFi">
+    <mxGraphModel dx="954" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-0" />
+        <mxCell id="ci_un-S7uynQoK_j7LqM-1" parent="ci_un-S7uynQoK_j7LqM-0" />
+        <mxCell id="ci_un-S7uynQoK_j7LqM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=8;fontColor=#000000;" edge="1" parent="ci_un-S7uynQoK_j7LqM-1" source="ci_un-S7uynQoK_j7LqM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="442.2857142857143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;fontColor=#000000;align=right;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="40" y="40" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-5" value="apup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="20" y="10" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-6" value="shutdown 5G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="270" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-7" value="shutdown 24G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="290" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-8" value="Set 5G&lt;br&gt;Set 24G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="320" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-9" value="Bringup 24G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="350" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-10" value="Bringup 5G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="370" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-11" value="Save WiFi Connection Log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="160" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-12" value="Turn off WiFi led" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="140" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-13" value="Stop auto ACL monitor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="120" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-14" value="Send Creating from reverse RPC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="180" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ci_un-S7uynQoK_j7LqM-15" value="Bring up VAP interface" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="ci_un-S7uynQoK_j7LqM-1">
+          <mxGeometry x="60" y="240" width="125" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
