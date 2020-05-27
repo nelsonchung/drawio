@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-27T07:26:50.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="1ntXKc7FqFFN4CGHhUpl" version="13.1.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-05-27T07:29:14.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="mevFycm8FcHrdk2FWj7H" version="13.1.3" type="github" pages="15">
   <diagram id="otSKW9VnM1xe6uIU6zZz" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4783,14 +4783,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="athryqQR_6A7v1E05bf_" name="Factory">
-    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-0" />
         <mxCell id="xNvRuRADd3VpSHTk6lxO-1" parent="xNvRuRADd3VpSHTk6lxO-0" />
         <mxCell id="xNvRuRADd3VpSHTk6lxO-56" value="&lt;div&gt;&lt;span style=&quot;font-size: 26px&quot;&gt;PC1&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="-413" y="50" width="813" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-46" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-46" value="GW7557-3" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-2" value="192.168.100.11" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
@@ -4901,7 +4901,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-45" value="WAN port&lt;br&gt;192.168.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;106.2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="25" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-47" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-47" value="GW7557-4" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="120" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-48" value="LAN port" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
@@ -4910,7 +4910,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-49" value="WAN port&lt;br&gt;192.168.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;105.2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="145" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-50" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-50" value="GW7557-2" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="-120" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-51" value="LAN port" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
@@ -4919,7 +4919,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-52" value="WAN port&lt;br&gt;192.168.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;107.2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="-95" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-53" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-53" value="GW7557-1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="-240" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-54" value="LAN port" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
@@ -4928,7 +4928,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-55" value="WAN port&lt;br&gt;192.168.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;108.2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="-215" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-59" value="&lt;div&gt;&lt;span style=&quot;font-size: 26px&quot;&gt;PC1&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-59" value="&lt;div&gt;&lt;span style=&quot;font-size: 26px&quot;&gt;PC2&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="990" y="50" width="813" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xNvRuRADd3VpSHTk6lxO-1" source="xNvRuRADd3VpSHTk6lxO-60" target="xNvRuRADd3VpSHTk6lxO-86">
@@ -5039,7 +5039,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-75" value="192.168.&lt;b&gt;&lt;font color=&quot;#ff0080&quot;&gt;105.45&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="1400" y="180" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-76" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-76" value="GW7557-5" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="240" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-77" value="LAN port" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
@@ -5048,7 +5048,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-78" value="WAN port&lt;br&gt;192.168.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;104.2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="265" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-79" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-79" value="GW7557-6" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="360" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-80" value="LAN port" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
@@ -5057,7 +5057,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-81" value="WAN port&lt;br&gt;192.168.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;103.2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="385" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-82" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-82" value="GW7557-7" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="480" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-83" value="LAN port" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
@@ -5066,7 +5066,7 @@
         <mxCell id="xNvRuRADd3VpSHTk6lxO-84" value="WAN port&lt;br&gt;192.168.&lt;font color=&quot;#ff0080&quot;&gt;&lt;b&gt;102.2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="505" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNvRuRADd3VpSHTk6lxO-85" value="GW7557" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
+        <mxCell id="xNvRuRADd3VpSHTk6lxO-85" value="GW7557-8" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
           <mxGeometry x="600" y="600" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xNvRuRADd3VpSHTk6lxO-86" value="LAN port" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="xNvRuRADd3VpSHTk6lxO-1">
