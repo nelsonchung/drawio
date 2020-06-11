@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-11T13:45:21.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="w7plGHTosh3-OopdaJUr" version="13.2.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-06-11T14:01:54.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="Bzjw2KlW4-yu8kzRYl--" version="13.2.1" type="github" pages="7">
   <diagram id="_FJAJ_8ngHWU3BHydG2_" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -536,11 +536,11 @@
             <mxPoint x="730" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6qffSt2IH6NwC8YEaex-0" value="TR069 Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
-          <mxGeometry x="10" y="-340" width="250" height="40" as="geometry" />
+        <mxCell id="J6qffSt2IH6NwC8YEaex-0" value="TR069 Architecture&lt;br&gt;Technical Report - 069" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
+          <mxGeometry x="20" y="-450" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J6qffSt2IH6NwC8YEaex-3" value="&lt;h1&gt;Feature&lt;/h1&gt;&lt;p&gt;1. 服務開通&lt;/p&gt;&lt;p&gt;2. 功能設定&lt;/p&gt;&lt;p&gt;3. 檔案上傳下載&lt;/p&gt;&lt;p&gt;4. 系統檢測&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
-          <mxGeometry x="20" y="-180" width="190" height="120" as="geometry" />
+          <mxGeometry x="20" y="-180" width="190" height="170" as="geometry" />
         </mxCell>
         <mxCell id="J6qffSt2IH6NwC8YEaex-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="luntEUrWztcpLccx-1iP-1" source="J6qffSt2IH6NwC8YEaex-4" target="J6qffSt2IH6NwC8YEaex-5">
           <mxGeometry relative="1" as="geometry" />
@@ -568,6 +568,12 @@
         </mxCell>
         <mxCell id="J6qffSt2IH6NwC8YEaex-8" value="CPE&lt;br&gt;Customer Premises Equipment" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Router_128x128.png;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
           <mxGeometry x="260" y="-380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J6qffSt2IH6NwC8YEaex-15" value="&lt;h1&gt;BootStrap&lt;/h1&gt;&lt;p&gt;完成初始化的動作&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
+          <mxGeometry x="414" y="490" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J6qffSt2IH6NwC8YEaex-16" value="&lt;h1&gt;Running&lt;/h1&gt;&lt;p&gt;Parameter Get/Set&lt;/p&gt;&lt;p&gt;Connection Request&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="luntEUrWztcpLccx-1iP-1">
+          <mxGeometry x="425" y="710" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
