@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-11T10:08:32.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="PJnM5RkKbxM7bY76IdRr" version="13.2.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-06-11T10:16:10.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="Hgn1CI4fOGPmld-iiR6I" version="13.2.1" type="github" pages="7">
   <diagram id="_FJAJ_8ngHWU3BHydG2_" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -816,53 +816,179 @@
         <mxCell id="LZkPmhODvJFYE0vC_LsX-18" value="Update the parameter with metadata gotten from the database&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="690" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-19" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-19" value="newParameter" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="750" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-20" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-20" value="This function is primarily used to setup the Parameters, normally this Parameters have to be stored in&amp;nbsp;&amp;nbsp;a RAM environment, so they don&#39;t get lost in the case of a power down or reboot.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="750" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-21" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-21" value="addParameterInfoStructHelper" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="810" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-22" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-22" value="Helper function for getParameterNames&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="810" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-23" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-23" value="getParameterNames" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="870" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-24" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-24" value="Get all parameters, name starting with given name" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="870" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-25" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-25" value="addInformParameterValueStructHelper" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="930" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-26" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-26" value="Helper function for getParameterNames for Inform message" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="930" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-27" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-27" value="prepareInformParameters" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="990" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-28" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-28" value="Prepares an array of parameters where the following conditions are true" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="990" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-29" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-29" value="setParameterStatus" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="1050" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-30" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-30" value="Reset the Status of the Parameters to ValueNotChanged" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="1050" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-31" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-31" value="resetParameterStatus" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="1110" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LZkPmhODvJFYE0vC_LsX-32" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="1110" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-33" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-33" value="addParameterValueStructHelper" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="720" y="1170" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LZkPmhODvJFYE0vC_LsX-34" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-34" value="Helper function for getParameterNames" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
           <mxGeometry x="1090" y="1170" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-35" value="getParameters" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1230" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-36" value="Returns an array of parameters identified by name in the array parameters." style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1230" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-37" value="checkArrayOfParameterValueStructOnCorrectness" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1290" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-38" value="check array of parameter value structs on correctness" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1290" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-39" value="checkArrayOfParameterValueStructOnRepetitions" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1350" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-40" value="check array of parameter value structs on repetitions" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1350" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-41" value="setParameters" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1410" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-42" value="Set all parameters, name starting with given name" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1410" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-43" value="setParameter" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1470" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-44" value="The internal version of setParameter" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1470" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-45" value="getParameter" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1530" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-46" value="Get the value of a single parameter into value" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1530" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-47" value="getParameterExtended" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1590" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-48" value="Get the value of a single parameter into value" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1590" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-49" value="setParameterWithAccessControlChecking" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1650" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-50" value="The version of setParameter, works as setParameter() butadditionally checks Access Control List (accessListBitArray) of the parameter.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1650" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-51" value="setParametersAttributesHelperGroup" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1710" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-52" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1710" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-53" value="setParametersAttributesHelper" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1770" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-54" value="HelperFunction for setting parameter attributes using the traverse()&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1770" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-55" value="setParametersAttributes" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1830" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-56" value="Set parameter attributes, name starting with given name," style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1830" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-57" value="addParameterAttributesStructHelper" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1890" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-58" value="Helper function for getParameterAttributes" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1890" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-59" value="getParametersAttributes" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="1950" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-60" value="Returns the ParameterAttributes for a list of given parameter names" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="1950" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-61" value="insertParameter" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2010" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-62" value="&amp;nbsp;Helper function to append a Parameter to the parameter list&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2010" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-63" value="insertParameterInObject" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2070" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-64" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2070" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-65" value="getPathName" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2130" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-66" value="&amp;nbsp;Get the whole pathname of a ParameterEntry." style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2130" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-67" value="getParentPath" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2190" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-68" value="Returns the parent path of parameter given in entry" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2190" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-69" value="deleteParameter" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2250" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-70" value="Deletes a parameter and its parameter file if existing&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2250" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-71" value="findParameterByPath" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2310" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-72" value="Helper function to find a parameterEntry by its pathname" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2310" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-73" value="代補充" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2370" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-74" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2370" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-75" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="720" y="2430" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZkPmhODvJFYE0vC_LsX-76" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="25EIcb2K5_YNwnpb98Pw-1">
+          <mxGeometry x="1090" y="2430" width="490" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
