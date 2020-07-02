@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-02T01:41:07.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="VabN0EdkdvJ_QdRoI5wh" version="13.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-07-02T01:52:20.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="FD2KobYvnMYi4fKxe9um" version="13.3.0" type="github" pages="7">
   <diagram id="_FJAJ_8ngHWU3BHydG2_" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1004,7 +1004,7 @@
     
   </diagram>
   <diagram id="c4QkA1164v3SKWDE6aOm" name="DNS_CBN_65">
-    <mxGraphModel dx="2370" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3Y-EVX6mv-VgHjXFL4vA-0" />
         <mxCell id="3Y-EVX6mv-VgHjXFL4vA-1" parent="3Y-EVX6mv-VgHjXFL4vA-0" />
@@ -1214,8 +1214,8 @@
             <mxPoint x="545" y="735" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HErTTPq_cJP2o7Gicxa--39" value="Monitor the dhcpv4 process is alive" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
-          <mxGeometry x="180" y="696" width="206" height="20" as="geometry" />
+        <mxCell id="HErTTPq_cJP2o7Gicxa--39" value="Monitor the dhcpv4 process is not alive anymore" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
+          <mxGeometry x="110" y="696" width="276" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u9I_ougluoUIY_YIr_yx-0" value="&lt;font style=&quot;font-size: 11px&quot;&gt;close dimclient&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
           <mxGeometry x="420" y="701" width="90" height="20" as="geometry" />
