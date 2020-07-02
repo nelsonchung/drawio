@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-02T01:52:20.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="FD2KobYvnMYi4fKxe9um" version="13.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-07-02T02:40:45.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="tX2FpEmj6uAZzJM2QLku" version="13.3.0" type="github" pages="7">
   <diagram id="_FJAJ_8ngHWU3BHydG2_" name="Framework">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1138,7 +1138,7 @@
           <mxGeometry x="500" y="980" width="78" height="25" as="geometry" />
         </mxCell>
         <mxCell id="HErTTPq_cJP2o7Gicxa--21" value="cbn_receivesignal" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
-          <mxGeometry x="647" y="980" width="118" height="25" as="geometry" />
+          <mxGeometry x="780" y="980" width="118" height="25" as="geometry" />
         </mxCell>
         <mxCell id="HErTTPq_cJP2o7Gicxa--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3Y-EVX6mv-VgHjXFL4vA-1" source="HErTTPq_cJP2o7Gicxa--23">
           <mxGeometry relative="1" as="geometry">
@@ -1150,17 +1150,11 @@
         </mxCell>
         <mxCell id="HErTTPq_cJP2o7Gicxa--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3Y-EVX6mv-VgHjXFL4vA-1" source="HErTTPq_cJP2o7Gicxa--25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="705.8571428571431" y="1230" as="targetPoint" />
+            <mxPoint x="838.8571428571431" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HErTTPq_cJP2o7Gicxa--25" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.circle;strokeColor=#222222;fillColor=none;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
-          <mxGeometry x="700" y="1020" width="12" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="HErTTPq_cJP2o7Gicxa--26" value="" style="endArrow=classic;html=1;" edge="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="546" y="1087" as="sourcePoint" />
-            <mxPoint x="706" y="1115" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="833" y="1020" width="12" height="12" as="geometry" />
         </mxCell>
         <mxCell id="HErTTPq_cJP2o7Gicxa--28" value="cbn_monitor" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
           <mxGeometry x="350" y="980" width="78" height="25" as="geometry" />
@@ -1221,10 +1215,10 @@
           <mxGeometry x="420" y="701" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u9I_ougluoUIY_YIr_yx-1" value="Close dhcpv4 process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
-          <mxGeometry x="713" y="1091" width="320" height="20" as="geometry" />
+          <mxGeometry x="841" y="1107" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u9I_ougluoUIY_YIr_yx-2" value="Launch dhcpv4 process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
-          <mxGeometry x="713" y="1111" width="320" height="20" as="geometry" />
+          <mxGeometry x="841" y="1127" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u9I_ougluoUIY_YIr_yx-3" value="Monitor the dhcpv4 process is not alive anymore" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
           <mxGeometry x="120" y="1060" width="266" height="20" as="geometry" />
@@ -1249,6 +1243,15 @@
         </mxCell>
         <mxCell id="u9I_ougluoUIY_YIr_yx-9" value="Monitor the dhcpv4 process is alive" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
           <mxGeometry x="120" y="1097" width="266" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u9I_ougluoUIY_YIr_yx-10" value="Receive the command from ACS server to enable/disable DNS poisioning and send the signal to cbn_receivesignal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
+          <mxGeometry x="558" y="1060" width="272" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u9I_ougluoUIY_YIr_yx-12" value="" style="endArrow=classic;html=1;" edge="1" parent="3Y-EVX6mv-VgHjXFL4vA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="546" y="1087" as="sourcePoint" />
+            <mxPoint x="840" y="1110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
