@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-08T03:18:36.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hEAXcGAYLVQ7OEPFDJzC" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-08T05:02:42.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="vKgk5dZoxDd0-GwT4S9A" version="13.3.5" type="github">
   <diagram id="45nuEe00fu6tHupbj59B" name="4G backup design">
-    <mxGraphModel dx="2500" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,31 +30,30 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-3" value="gwWanSwitchOverIpMonitorEnable" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-3" value="gwWanSwitchOverIpMonitorEnable" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="285" y="270" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="bz7vgp1j4L_jrthaB-WK-5" value="End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="610" y="1169" width="120" height="50" as="geometry" />
+          <mxGeometry x="610" y="1110" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-11" target="bz7vgp1j4L_jrthaB-WK-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" target="bz7vgp1j4L_jrthaB-WK-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="584" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-11" value="timer &amp;lt;&lt;br style=&quot;font-size: 12px;&quot;&gt;gwWanSwitchoverIpMonitorInterval" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-11" value="timer &amp;lt;&lt;br style=&quot;font-size: 12px;&quot;&gt;gwWanSwitchoverIpMonitorInterval" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="267.19" y="460" width="265.62" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-12" value="ping gwWanSwitchOverIpMonitorTargetAddress" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-140" y="360" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bz7vgp1j4L_jrthaB-WK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-14" target="bz7vgp1j4L_jrthaB-WK-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-14" value="The wan interface is Main interface (Docsis)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="275" y="220" width="250" height="30" as="geometry" />
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-14" value="The wan interface is Main interface (Docsis)&lt;br&gt;and&lt;br&gt;Set the index of gw_wan_interface to docsis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="180" width="335" height="70" as="geometry" />
         </mxCell>
         <mxCell id="bz7vgp1j4L_jrthaB-WK-31" value="Fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-17" target="bz7vgp1j4L_jrthaB-WK-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-40" value="Pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-17" target="bz7vgp1j4L_jrthaB-WK-11">
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-40" value="Pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-17" target="bz7vgp1j4L_jrthaB-WK-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="715" />
@@ -62,30 +61,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-17" value="ping &lt;br style=&quot;font-size: 12px;&quot;&gt;gwWanSwitchOverIpMonitorTargetAddress" style="rhombus;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="258.59" y="630" width="282.81" height="170" as="geometry" />
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-17" value="ping &lt;br style=&quot;font-size: 12px;&quot;&gt;gwWanSwitchOverIpMonitorTargetAddress" style="rhombus;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;fontSize=12;fontStyle=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="258.59" y="624" width="282.81" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-19" target="bz7vgp1j4L_jrthaB-WK-11">
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-19" target="bz7vgp1j4L_jrthaB-WK-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="1207" />
-              <mxPoint x="210" y="525" />
+              <mxPoint x="220" y="1400" />
+              <mxPoint x="130" y="1400" />
+              <mxPoint x="130" y="525" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-19" value="Switch to backup interface (e.g. 4G LTE, Ethernet )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="340" y="1177" width="120" height="60" as="geometry" />
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-19" value="Switch to backup interface - 4G LTE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bz7vgp1j4L_jrthaB-WK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-30" target="bz7vgp1j4L_jrthaB-WK-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-30" value="gwWanSwitchOverIpMonitorTargetFailure++" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="265" y="855" width="270" height="60" as="geometry" />
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-30" value="gwWanSwitchOverIpMonitorTargetFailure++" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="265" y="834" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-36" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-35" target="bz7vgp1j4L_jrthaB-WK-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-36" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontStyle=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-35" target="bz7vgp1j4L_jrthaB-WK-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-41" value="Pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-35" target="bz7vgp1j4L_jrthaB-WK-11">
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-41" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-35" target="bz7vgp1j4L_jrthaB-WK-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="620" y="1044" />
@@ -93,8 +95,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bz7vgp1j4L_jrthaB-WK-35" value="gwWanSwitchOverIpMonitorTargetFailure &amp;gt;&amp;nbsp;gwWanSwitchoverIpMonitorThreshold" style="rhombus;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="258.5999999999999" y="959" width="282.81" height="170" as="geometry" />
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-35" value="gwWanSwitchOverIpMonitorTargetFailure &amp;gt;&amp;nbsp;gwWanSwitchoverIpMonitorThreshold" style="rhombus;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;fontSize=12;fontStyle=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="258.5999999999999" y="919" width="282.81" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-48" value="Backup Interface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-43" target="bz7vgp1j4L_jrthaB-WK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-49" value="Main interface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-43" target="bz7vgp1j4L_jrthaB-WK-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-50" value="Backup Interface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-43" target="bz7vgp1j4L_jrthaB-WK-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-43" value="Switch to next backup interface according to gw_index_wan_interface" style="rhombus;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;fontSize=12;fontStyle=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="258.5899999999999" y="1120" width="282.81" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-46" target="bz7vgp1j4L_jrthaB-WK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="1410" />
+              <mxPoint x="100" y="1410" />
+              <mxPoint x="100" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-46" value="Switch to Main interface (Docsis)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bz7vgp1j4L_jrthaB-WK-47" target="bz7vgp1j4L_jrthaB-WK-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="601" y="1420" />
+              <mxPoint x="80" y="1420" />
+              <mxPoint x="80" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz7vgp1j4L_jrthaB-WK-47" value="Switch to backup interface - Ethernet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="541.41" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
