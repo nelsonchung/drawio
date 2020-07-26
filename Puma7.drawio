@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-26T13:32:32.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="UHaZ3bbw0DTliod61-aE" version="13.3.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-07-26T13:33:57.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="WZPisbzDok2UYyfEkqZl" version="13.3.9" type="github" pages="4">
   <diagram id="45nuEe00fu6tHupbj59B" name="4G backup design">
     <mxGraphModel dx="736" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,7 +318,7 @@
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-12" value="BusyBox" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="530" y="560" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-13" value="DOCSIS MIBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-13" value="DOCSIS MIBS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="160" y="646" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-14" value="MTA MIBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
@@ -336,7 +336,7 @@
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-18" value="Multi LAN Config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="640" y="646" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-19" value="DOCSIS SRC/Patches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-19" value="DOCSIS SRC/Patches" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="160" y="685" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-20" value="MTA Patches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
@@ -351,19 +351,19 @@
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-23" value="MTA Ext HAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="550" y="685" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-24" value="GW Prov abs Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-24" value="GW Prov abs Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="640" y="685" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-25" value="TR69 PA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-25" value="TR69 PA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="180" y="310" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-26" value="SNMP PA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-26" value="SNMP PA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="290" y="310" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-27" value="DS Lite" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-27" value="DS Lite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="339" y="430" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-28" value="Bridge Utils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-28" value="Bridge Utils" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="410" y="430" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-29" value="UPnp IGD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
@@ -378,16 +378,16 @@
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-32" value="NetSNMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="180" y="470" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-33" value="IP Route" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-33" value="IP Route" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="250" y="470" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-34" value="IPv4/IPv6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-34" value="IPv4/IPv6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="320" y="470" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-37" value="VLAN Utils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-37" value="VLAN Utils" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="400" y="470" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-38" value="DNS Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-38" value="DNS Proxy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="480" y="470" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OnwA9-ls0Tcsj9Gh7uv1-41" value="IGMP Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
@@ -402,7 +402,7 @@
         <mxCell id="gCbLFM_ZsD-2BerwzxMJ-1" value="WebPA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="480" y="310" width="66.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gCbLFM_ZsD-2BerwzxMJ-2" value="GW Prov App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="gCbLFM_ZsD-2BerwzxMJ-2" value="GW Prov App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="560" y="310" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gCbLFM_ZsD-2BerwzxMJ-3" value="CLI PA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
@@ -438,10 +438,10 @@
         <mxCell id="gCbLFM_ZsD-2BerwzxMJ-19" value="Home Security" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="620" y="380" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gCbLFM_ZsD-2BerwzxMJ-20" value="DHCP V4/V6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="gCbLFM_ZsD-2BerwzxMJ-20" value="DHCP V4/V6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="180" y="430" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gCbLFM_ZsD-2BerwzxMJ-21" value="IP Tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+        <mxCell id="gCbLFM_ZsD-2BerwzxMJ-21" value="IP Tables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="269.25" y="430" width="60.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gCbLFM_ZsD-2BerwzxMJ-22" value="CCSP Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
