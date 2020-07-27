@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T02:35:30.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="LTwuslWmqbm0yio13Q-S" version="13.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-07-27T08:46:41.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="81rl--idAQebrHi5t7LL" version="13.5.3" type="github" pages="4">
   <diagram id="45nuEe00fu6tHupbj59B" name="4G backup design">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,221 +139,113 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JpowrQ2jnxT3215Dn4uJ" name="RRC">
-    
-    <mxGraphModel dx="736" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-0" />
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-1" parent="vOo3Pk84jgksaV78AEXv-0" />
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" source="vOo3Pk84jgksaV78AEXv-2" edge="1">
-          
           <mxGeometry relative="1" as="geometry">
-            
             <mxPoint x="240" y="490" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-2" value="UE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" vertex="1">
-          
           <mxGeometry x="220" y="150" width="40" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" source="vOo3Pk84jgksaV78AEXv-3" edge="1">
-          
           <mxGeometry relative="1" as="geometry">
-            
             <mxPoint x="523" y="480" as="targetPoint" />
-            
             <Array as="points">
-              
               <mxPoint x="523" y="210" />
-              
               <mxPoint x="523" y="210" />
-              
             </Array>
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-3" value="EUTRAN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" vertex="1">
-          
           <mxGeometry x="480" y="140" width="86" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-8" value="" style="endArrow=classic;html=1;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" edge="1">
-          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            
             <mxPoint x="240" y="220" as="sourcePoint" />
-            
             <mxPoint x="520" y="240" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-9" value="RRCConnectionRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-8" vertex="1" connectable="0">
-          
           <mxGeometry x="-0.1099" relative="1" as="geometry">
-            
             <mxPoint x="15.32" y="-18.91" as="offset" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-11" value="" style="endArrow=classic;html=1;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" edge="1">
-          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            
             <mxPoint x="240" y="350" as="sourcePoint" />
-            
             <mxPoint x="520" y="385" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-12" value="RRCConnectionSetupComplete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-11" vertex="1" connectable="0">
-          
           <mxGeometry x="-0.1099" relative="1" as="geometry">
-            
             <mxPoint x="24.97" y="-20.63" as="offset" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-13" value="" style="endArrow=none;html=1;fontSize=12;startArrow=classic;startFill=1;endFill=0;" parent="vOo3Pk84jgksaV78AEXv-1" edge="1">
-          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            
             <mxPoint x="240" y="298" as="sourcePoint" />
-            
             <mxPoint x="520" y="278" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-14" value="RRCConnectionSetup" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-13" vertex="1" connectable="0">
-          
           <mxGeometry x="-0.1099" relative="1" as="geometry">
-            
             <mxPoint x="15.32" y="-19.09" as="offset" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" source="vOo3Pk84jgksaV78AEXv-16" edge="1">
-          
           <mxGeometry relative="1" as="geometry">
-            
             <mxPoint x="240" y="770" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-16" value="UE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" vertex="1">
-          
           <mxGeometry x="220" y="570" width="40" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" source="vOo3Pk84jgksaV78AEXv-18" edge="1">
-          
           <mxGeometry relative="1" as="geometry">
-            
             <mxPoint x="523" y="770" as="targetPoint" />
-            
             <Array as="points">
-              
               <mxPoint x="523" y="630" />
-              
               <mxPoint x="523" y="630" />
-              
             </Array>
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-18" value="EUTRAN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" vertex="1">
-          
           <mxGeometry x="480" y="560" width="86" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-19" value="" style="endArrow=classic;html=1;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" edge="1">
-          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            
             <mxPoint x="240" y="640" as="sourcePoint" />
-            
             <mxPoint x="520" y="660" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-20" value="RRCConnectionRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-19" vertex="1" connectable="0">
-          
           <mxGeometry x="-0.1099" relative="1" as="geometry">
-            
             <mxPoint x="15.32" y="-18.91" as="offset" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-23" value="" style="endArrow=none;html=1;fontSize=12;startArrow=classic;startFill=1;endFill=0;" parent="vOo3Pk84jgksaV78AEXv-1" edge="1">
-          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            
             <mxPoint x="240" y="718" as="sourcePoint" />
-            
             <mxPoint x="520" y="698" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-24" value="RRCConnectionReject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-23" vertex="1" connectable="0">
-          
           <mxGeometry x="-0.1099" relative="1" as="geometry">
-            
             <mxPoint x="15.32" y="-19.09" as="offset" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-25" value="RRC連線建立成功過程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" vertex="1">
-          
           <mxGeometry x="170" y="100" width="130" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="vOo3Pk84jgksaV78AEXv-26" value="RRC連線建立, 網路拒絕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="vOo3Pk84jgksaV78AEXv-1" vertex="1">
-          
           <mxGeometry x="160" y="520" width="150" height="20" as="geometry" />
-          
         </mxCell>
-        
       </root>
-      
     </mxGraphModel>
-    
   </diagram>
   <diagram id="JvDEQ-61o4gUGhpbabN_" name="Architecture">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
@@ -562,70 +454,61 @@
           <mxGeometry x="950" y="320" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S-F14XE72XXUfX5xFQmH-13" value="TR069" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="850" y="345" width="100" height="30" as="geometry" />
+          <mxGeometry x="850" y="345" width="100" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="950" y="345" width="300" height="30" as="geometry" />
+        <mxCell id="S-F14XE72XXUfX5xFQmH-14" value="&lt;div&gt;xml:&lt;/div&gt;&lt;div&gt;puma7-atom/cbn-package/cbn-agent/config/TR181-CBN.XML&lt;/div&gt;&lt;div&gt;code:&lt;/div&gt;&lt;div&gt;puma7-atom/cbn-package/cbn-agent/source/TR-181/&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
+          <mxGeometry x="950" y="345" width="300" height="85" as="geometry" />
         </mxCell>
         <mxCell id="S-F14XE72XXUfX5xFQmH-15" value="SNMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="850" y="375" width="100" height="30" as="geometry" />
+          <mxGeometry x="850" y="430" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="950" y="375" width="300" height="30" as="geometry" />
+        <mxCell id="S-F14XE72XXUfX5xFQmH-16" value="puma7-atom/puma7-rdkb/rdkb-cbn/components/opensource/ccsp/CcspSnmpPa/cbn_mib/Ccsp_CBN-Gateway-MIB-WanSelectionDaemon.xml" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
+          <mxGeometry x="950" y="430" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-17" value="SSH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="850" y="405" width="100" height="30" as="geometry" />
+        <mxCell id="S-F14XE72XXUfX5xFQmH-17" value="SSH Command" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
+          <mxGeometry x="850" y="490" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="950" y="405" width="300" height="30" as="geometry" />
+        <mxCell id="S-F14XE72XXUfX5xFQmH-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
+          <mxGeometry x="950" y="490" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-19" value="WSD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="850" y="435" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="950" y="435" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="850" y="465" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="950" y="465" width="300" height="30" as="geometry" />
+        <mxCell id="S-F14XE72XXUfX5xFQmH-20" value="puma7-atom/puma7-rdkb/meta-rdk-oem-cbn-puma7/meta-cbnwsd/recipes-intelce/appcpu-infr/anywan/anywan-fsm.c" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
+          <mxGeometry x="950" y="570" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S-F14XE72XXUfX5xFQmH-23" value="Utopia" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="850" y="555" width="100" height="30" as="geometry" />
+          <mxGeometry x="850" y="620" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S-F14XE72XXUfX5xFQmH-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
-          <mxGeometry x="950" y="555" width="300" height="30" as="geometry" />
+        <mxCell id="S-F14XE72XXUfX5xFQmH-24" value="puma7-atom/puma7-rdkb/rdkb-cbn/components/opensource/ccsp/Utopia/" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="mriJuqcLEx9r5TdGRV7f-1" vertex="1">
+          <mxGeometry x="950" y="620" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Xs3P8ac1OmG1sk6d6M__-1" value="Information" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
           <mxGeometry x="1250" y="320" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-7" value="1. Define TR069 data object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="1250" y="350" width="300" height="30" as="geometry" />
+        <mxCell id="Xs3P8ac1OmG1sk6d6M__-7" value="&lt;span&gt;1. Define TR069 data model object&lt;/span&gt;&lt;div&gt;2. (2.0) 在 xml 裡面預設是被註解的(為了其他沒啟用WSD的產品)；啟用後在 ccsp-tr069-pa.bbappend 裡面使用 sed 摘掉註解符號讓 data object 出現&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="1250" y="350" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-8" value="1. Define MIB tree" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="1250" y="375" width="300" height="30" as="geometry" />
+        <mxCell id="Xs3P8ac1OmG1sk6d6M__-8" value="1. Define MIB tree" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="1250" y="430" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-9" value="1. PMMCLI set command to reload SSH process." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="1250" y="405" width="300" height="30" as="geometry" />
+        <mxCell id="Xs3P8ac1OmG1sk6d6M__-9" value="&lt;div&gt;1. PPMCLI set command to reload SSH progress&lt;/div&gt;&lt;div&gt;2. 在 console (or SSH) 介面下，透過 dmcli / psmcli 之類的指令直接對 DUT 的 database 進行存取；而 WSD 在運作時有部分判斷條件是 runtime 去向 database 取值，藉此達到參數設定能夠即時生效&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="1250" y="490" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-10" value="1. Implement WSD feature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="1250" y="435" width="300" height="30" as="geometry" />
+        <mxCell id="Xs3P8ac1OmG1sk6d6M__-10" value="1. Implement WSD feature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="1250" y="570" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="1250" y="465" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-12" value="1. Interface communication need" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="1250" y="555" width="300" height="30" as="geometry" />
+        <mxCell id="Xs3P8ac1OmG1sk6d6M__-12" value="1. 將 Utopia 裡面綁定 DOCSIS (erouter0) 的部分改為從 WSD 指定的 interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="1250" y="620" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Xs3P8ac1OmG1sk6d6M__-14" value="DHCP V4/V6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="850" y="585" width="100" height="30" as="geometry" />
+          <mxGeometry x="850" y="660" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="950" y="585" width="300" height="30" as="geometry" />
+        <mxCell id="Xs3P8ac1OmG1sk6d6M__-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="950" y="660" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Xs3P8ac1OmG1sk6d6M__-16" value="1. LTE ipv6 ip address reimplement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
-          <mxGeometry x="1250" y="585" width="300" height="30" as="geometry" />
+        <mxCell id="Xs3P8ac1OmG1sk6d6M__-16" value="1. LTE ipv6 ip address reimplement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="1250" y="660" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WaWb-KckRu4FjFKqKRZf-0" value="WSD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="mriJuqcLEx9r5TdGRV7f-1">
+          <mxGeometry x="850" y="570" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
